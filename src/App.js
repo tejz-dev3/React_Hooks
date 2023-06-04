@@ -5,6 +5,8 @@ import EventC from './components/EventC';
 import ClassForm from './components/ClassForm';
 import Hooks from './components/Hooks'
 import FormHandler from './components/FormHandler';
+import UseEffect from './components/UseEffect';
+import UseEffectwo from './components/UseEffectwo';
 
 function App() {
   return (
@@ -13,8 +15,10 @@ function App() {
        <EventC /> */}
        {/* <ClassForm /> */}
        {/* <ClassForm /> */}
-       <Hooks />
-       <FormHandler/>
+       {/* <Hooks />
+       <FormHandler/> */}
+       {/* <2_UseEffect /> */}
+       <UseEffectwo />
     </div>
   );
 }
